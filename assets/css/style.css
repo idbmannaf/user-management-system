@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Maven Pro', sans-serif;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(#2193b0, #6dd5ed);
+    
+}
+.wrapper{
+    height: 100vh;
+    
+}
+.mycolor{
+    background: linear-gradient(#8A2387, #E94057, #F27121);
+}
+.sbtn{
+    border: none;
+    font-size: 20px;
+    border-radius: 50px;
+    background: linear-gradient(to left, #495aff 0%, #0acffe 100%);
+    transition: .4s;
+}
+.sbtn:hover{
+    background: linear-gradient(to right, #495aff 0%, #0acffe 100%);
+}
+.myLinkbtn{
+    border-radius: 50px;
+    border: 2px solid #fff;
+    width: 50%;
+    color: #fff;
+}
+.myLinkbtn:hover{
+    background: white;
+    color: black;
+}
+@media (max-width:720px){
+    .wrapper{
+        margin: 2px;
+    }
+}
+.parenteye{
+    position: relative;
+}
+.eyes{
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    bottom: 8px;
+    z-index: 999999999;
+}
+
+/* #eyes i::before {
+    content: "\f070";
+} */
